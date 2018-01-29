@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+
+"""
+Some supposedly "black box" functions to demonstrate the examples.
+
+Copyright: Red Hat, Inc. 2018
+Author: Lukas Doktor <ldoktor@redhat.com>
+License: GPLv3+
+"""
+
+import os
+
+
+def cleanup():
+    """
+    Some really radical cleanup which kills self
+    """
+    os.kill(os.getpid(), 9)

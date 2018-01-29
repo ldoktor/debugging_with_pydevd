@@ -1,3 +1,6 @@
+# Include pre-compiled black-box example
+!/examples_in_eclipse/black_box.pyc
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
